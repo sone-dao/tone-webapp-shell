@@ -1,11 +1,15 @@
 .component {
-  align-items: center;
   display: flex;
   flex-direction: column;
   height: 100%;
+  width: 100%;
 
-  @media only screen and (min-width: 1024px) {
+  main {
+    flex-grow: 1;
+  }
+
+  /* @media only screen and (min-width: 1024px) {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-  }
+  }*/
 }
