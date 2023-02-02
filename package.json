@@ -1,6 +1,6 @@
 {
   "name": "@sone-dao/tone-webapp-shell",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0",
@@ -29,6 +29,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.57.1",
+    "shelljs": "^0.8.5",
     "tcp-port-used": "^1.0.2",
     "typescript": "^4.9.4",
     "webpack": "^5.75.0",
@@ -44,8 +45,7 @@
     "@types/shelljs": "^0.8.11",
     "cross-env": "^7.0.3",
     "husky": "^8.0.3",
-    "prettier": "^2.8.3",
-    "shelljs": "^0.8.5"
+    "prettier": "^2.8.3"
   },
   "bin": {
     "tone-shell": "bin.js"
