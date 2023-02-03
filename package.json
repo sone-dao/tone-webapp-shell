@@ -17,7 +17,6 @@
   },
   "dependencies": {
     "@module-federation/nextjs-mf": "^6.0.5",
-    "@module-federation/typescript": "^2.1.6",
     "@next/font": "13.1.2",
     "@sone-dao/sone-react-placeholder": "^1.0.2",
     "eslint": "8.31.0",

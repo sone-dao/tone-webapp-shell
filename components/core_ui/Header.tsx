@@ -9,6 +9,6 @@ const HeaderProd = dynamic(() => import('core_ui/header'), {
 export const Header: React.FC<IHeaderProps> = () => {
   const rnd = Math.floor(Math.random() * 100) + 1
 
-  //if (rnd < 10) return <HeaderBeta />
+  //if (rnd < 10 || betaHeader == true) return <HeaderBeta />
   return <HeaderProd />
 }
