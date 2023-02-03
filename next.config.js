@@ -9,8 +9,8 @@ const nextConfig = async () => {
 
   const hosts = [
     {
-      name: 'core_ui',
-      remote: 'https://coreui.buckets.tone.audio',
+      name: 'tone_core_ui',
+      remote: 'https://core_ui.buckets.tone.audio',
       devPort: 42001,
     },
   ]

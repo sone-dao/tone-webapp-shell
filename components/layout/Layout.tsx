@@ -1,4 +1,4 @@
-import { Header } from '../core_ui/Header'
+import { Helmet } from '../core_ui/Helmet'
 import styles from './Layout.module.scss'
 
 export interface ILayoutProps {
@@ -8,7 +8,7 @@ export interface ILayoutProps {
 const Layout: React.FC<ILayoutProps> = ({ children }) => {
   return (
     <div className={styles.component}>
-      <Header />
+      <Helmet />
       <main>{children}</main>
     </div>
   )

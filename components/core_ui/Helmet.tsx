@@ -1,14 +1,12 @@
 import dynamic from 'next/dynamic'
 
-interface IHeaderProps {}
-
-const HeaderProd = dynamic(() => import('core_ui/header'), {
+const HelmetProd = dynamic(() => import('tone_core_ui/helmet'), {
   ssr: false,
 })
 
-export const Header: React.FC<IHeaderProps> = () => {
+export const Helmet: React.FC<IHeaderProps> = () => {
   const rnd = Math.floor(Math.random() * 100) + 1
 
   //if (rnd < 10 || betaHeader == true) return <HeaderBeta />
-  return <HeaderProd />
+  return <HelmetProd />
 }
