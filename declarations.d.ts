@@ -1,1 +1,1 @@
-declare module 'core_ui/helmet'
+declare module 'tone_core_ui/helmet'
