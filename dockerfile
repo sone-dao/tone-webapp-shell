@@ -4,7 +4,8 @@ ARG GH_TOKEN
 WORKDIR /app
 COPY . .
 RUN echo "//registry.npmjs.org/:_authToken=$GH_TOKEN" > .npmrc
-RUN yarn install
+RUN yarn install --production
 RUN yarn build
 CMD ["yarn", "start"]
 EXPOSE 8080
+
