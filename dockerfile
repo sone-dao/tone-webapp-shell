@@ -1,10 +1,10 @@
 # syntax=docker/dockerfile:1
 FROM node:18-alpine
-ARG gh_token
+ARG GH_TOKEN
 
 RUN apk update
 RUN apk add git
-RUN echo "token: ".$gh_token
+RUN echo $GH_TOKEN
 RUN git config --global url."https://${gh_token}@github.com/".insteadOf "https://github.com/"
 
 WORKDIR /app
