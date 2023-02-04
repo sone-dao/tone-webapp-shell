@@ -18,6 +18,7 @@
   "dependencies": {
     "@module-federation/nextjs-mf": "^6.0.5",
     "@next/font": "13.1.2",
+    "@sone-dao/sone-react-placeholder": "^1.0.0",
     "compression": "^1.7.4",
     "eslint": "8.31.0",
     "eslint-config-next": "13.1.2",
