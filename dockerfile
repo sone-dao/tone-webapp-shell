@@ -11,7 +11,7 @@ WORKDIR /app
 COPY . .
 
 RUN echo "//registry.npmjs.org/:_authToken=${GH_TOKEN}" > /app/.npmrc
-RUN yarn install
+RUN npm install
 RUN yarn build
 
 CMD ["yarn", "start"]
