@@ -10,8 +10,9 @@ WORKDIR /app
 
 COPY . .
 
-RUN echo "//registry.npmjs.org/:_authToken=${GH_TOKEN}" > /app/.npmrc
-RUN npm install
+RUN echo -e "machine github.com\n  login $GH_TOKEN" > ~/.netrc
+RUN yarn install
+RUN rm ~/.netrc
 RUN yarn build
 
 CMD ["yarn", "start"]
