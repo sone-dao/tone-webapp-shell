@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 FROM node:18-alpine
 ARG NPM_TOKEN
-ENV NPM_TOPEN = ${NPM_TOKEN}
+ENV NPM_TOKEN = ${NPM_TOKEN}
 WORKDIR /app
 COPY . .
 RUN npm install && rm -f .npmrc && yarn build
