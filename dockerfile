@@ -4,7 +4,7 @@ ARG gh_token
 
 RUN apk update
 RUN apk add git
-RUN git config --global url."https://$gh_token:@github.com/".insteadOf "https://github.com/"
+RUN git config --global url."https://${gh_token}@github.com/".insteadOf "https://github.com/"
 
 WORKDIR /app
 
