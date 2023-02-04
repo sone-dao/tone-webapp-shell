@@ -1,6 +1,7 @@
 # syntax=docker/dockerfile:1
 FROM node:18-alpine
 ARG GH_TOKEN
+ENV GH_TOKEN $GH_TOKEN
 
 RUN apk update
 RUN apk add git
