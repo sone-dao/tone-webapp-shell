@@ -9,7 +9,7 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "dev": "node ./dev.js",
+    "dev": "cross-env NODE_OPTIONS='--inspect' next dev -p 42001",
     "build": "next build",
     "start": "next start -p 8080",
     "lint": "next lint",
@@ -18,8 +18,10 @@
   "dependencies": {
     "@module-federation/nextjs-mf": "^6.0.5",
     "@next/font": "13.1.2",
+    "compression": "^1.7.4",
     "eslint": "8.31.0",
     "eslint-config-next": "13.1.2",
+    "express": "^4.18.2",
     "next": "13.1.6",
     "open": "^8.4.0",
     "react": "18.2.0",
@@ -41,5 +43,8 @@
     "cross-env": "^7.0.3",
     "husky": "^8.0.3",
     "prettier": "^2.8.3"
+  },
+  "bin": {
+    "tone-shell": "./server.js"
   }
 }

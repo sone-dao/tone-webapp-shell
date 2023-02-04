@@ -24,7 +24,8 @@ const nextConfig = async () => {
 
     if (isInUse) {
       console.log(`Bucket found: ${host.name}`)
-      remotes[host.name] = host.name + `@http://localhost:${host.devPort}` + remoteEntryPath
+      remotes[host.name] =
+        host.name + `@http://localhost:${host.devPort}` + remoteEntryPath
     } else {
       remotes[host.name] = host.name + '@' + host.remote + remoteEntryPath
     }
