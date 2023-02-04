@@ -4,7 +4,7 @@ ARG NPM_TOKEN
 WORKDIR /app
 COPY . .
 RUN echo "//npm.pkg.github.com/:_authToken=$NPM_TOKEN" > ~/.npmrc
-RUN yarn install
+RUN npm install
 RUN rm -f ~/.npmrc
 RUN yarn build
 CMD ["yarn", "start"]
