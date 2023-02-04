@@ -4,7 +4,7 @@ ARG NPM_TOKEN
 ENV NPM_TOPEN = ${NPM_TOKEN}
 WORKDIR /app
 COPY . .
-RUN npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}" && npm install && rm -f .npmrc && yarn build
+RUN npm install && rm -f .npmrc && yarn build
 #RUN echo "//npm.pkg.github.com/:_authToken=$GH_TOKEN" > .npmrc
 #RUN yarn install
 #RUN yarn build
