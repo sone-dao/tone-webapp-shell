@@ -446,6 +446,15 @@
     react "^18.2.0"
     react-dom "^18.2.0"
 
+"@sone-dao/tone-react-provider-session@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@sone-dao/tone-react-provider-session/1.0.0/4da133b7b595e6df3cf1519276e3551aaae203ad#4da133b7b595e6df3cf1519276e3551aaae203ad"
+  integrity sha512-xCQ5WfpsBjAxpT1nkS/1ZwLRNge8gDjbaPrISkjZK0aNo9yAdrZ/gVkfEhJTnN0BW246CvLxRujsplmNsXqANw==
+  dependencies:
+    next "13.1.6"
+    react "^18.2.0"
+    react-dom "^18.2.0"
+
 "@swc/core-darwin-arm64@1.3.26":
   version "1.3.26"
   resolved "https://registry.npmjs.org/@swc/core-darwin-arm64/-/core-darwin-arm64-1.3.26.tgz#43355315f0668a6a5366208f09678349bc0f44ee"

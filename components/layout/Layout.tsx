@@ -7,7 +7,7 @@ export interface ILayoutProps {
 
 const Layout: React.FC<ILayoutProps> = ({ children }) => {
   return (
-    <div className={styles.component}>
+    <div className={styles.layout}>
       <Helmet />
       <main>{children}</main>
     </div>

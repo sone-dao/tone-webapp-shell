@@ -9,4 +9,3 @@ RUN rm -f ~/.npmrc
 RUN npm run build
 CMD ["yarn", "start"]
 EXPOSE 8080
-

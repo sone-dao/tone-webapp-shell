@@ -10,7 +10,10 @@ const handle = app.getRequestHandler()
 app.prepare().then(() => {
   const server = express()
   server.use(compression())
-  server.use((req, res, next) => next())
+  server.use((req, res, next) => {
+    req.url = req.originalUrl.replace('/tone_shell_server/_next', '/_next')
+    next()
+  })
 
   server.get('/_next/*', (req, res) => handle(req, res))
   server.all('*', (req, res) => handle(req, res))
