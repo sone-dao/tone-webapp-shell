@@ -8,7 +8,7 @@ const HomePage: NextPage = () => {
       <Head>
         <title>Home - Tone [by Sone]</title>
       </Head>
-      <Placeholder display="Component: Home" />
+      <Placeholder display="Component: Home" color="#00A30D" />
     </>
   )
 }
