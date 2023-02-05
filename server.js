@@ -11,7 +11,7 @@ app.prepare().then(() => {
   const server = express()
   server.use(compression())
   server.use((req, res, next) => {
-    req.url = req.originalUrl.replace('/tone_shell_server/_next', '/_next')
+    //req.url = req.originalUrl.replace('/tone_shell_server/_next', '/_next')
     next()
   })
 

@@ -12,23 +12,22 @@
     "build": "next build",
     "start": "next start -p 8080",
     "lint": "next lint",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "shell": "node ./server.js"
   },
   "dependencies": {
     "@module-federation/nextjs-mf": "^6.0.5",
     "@next/font": "13.1.2",
     "@sone-dao/sone-react-placeholder": "^1.0.0",
-    "@sone-dao/tone-react-provider-session": "^1.0.0",
+    "@sone-dao/tone-react-provider-session": "^0.2.0",
     "compression": "^1.7.4",
     "eslint": "8.31.0",
     "eslint-config-next": "13.1.2",
     "express": "^4.18.2",
-    "next": "13.1.6",
-    "open": "^8.4.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "sass": "^1.57.1",
-    "shelljs": "^0.8.5",
     "tcp-port-used": "^1.0.2",
     "typescript": "^4.9.4",
     "webpack": "^5.75.0"
@@ -43,8 +42,5 @@
     "cross-env": "^7.0.3",
     "husky": "^8.0.3",
     "prettier": "^2.8.3"
-  },
-  "bin": {
-    "tone-shell": "./server.js"
   }
 }
