@@ -13,6 +13,11 @@ const nextConfig = async () => {
       remote: 'https://coreui.buckets.tone.audio',
       devPort: 42001,
     },
+    {
+      name: 'tone_admissions',
+      remote: 'https://admissions.buckets.tone.audio',
+      devPort: 42002,
+    },
   ]
 
   let remotes = {}
