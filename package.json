@@ -6,6 +6,13 @@
     "node": ">=18.0.0",
     "yarn": ">=1.22.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sone-dao/packages.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "prepare": "husky install",
     "dev": "cross-env NODE_OPTIONS='--inspect' next dev -p 42000",
