@@ -6,8 +6,8 @@ import { useEffect } from 'react'
 
 const RegistrationPage: NextPage = () => {
   useEffect(() => {
-    pub('__TONE_EVENTS', 'header.hide', true)
-    return () => pub('__TONE_EVENTS', 'header.hide', false)
+    pub('__TONE_EVENTS', 'helmet.hide', true)
+    return () => pub('__TONE_EVENTS', 'helmet.hide', false)
   }, [])
 
   return (
