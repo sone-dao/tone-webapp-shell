@@ -456,10 +456,10 @@
   resolved "https://npm.pkg.github.com/download/@sone-dao/tone-react-provider-session/0.2.0/24497dde2da2c32e5d14af7e66c4a6cdb273eac3#24497dde2da2c32e5d14af7e66c4a6cdb273eac3"
   integrity sha512-dmQLEy0VuX+VJaS40iQ6YDOQBUSuGJD8T91I9F1KgqadLwaGtw0dNGQCTTCKfwqAcCTguOi2qkHeGUkrtHm41w==
 
-"@sone-dao/tone-react-provider-utils@^0.2.0":
-  version "0.2.0"
-  resolved "https://npm.pkg.github.com/download/@sone-dao/tone-react-provider-utils/0.2.0/62670f5e76ddae0836653717246f2d0fbf63974c#62670f5e76ddae0836653717246f2d0fbf63974c"
-  integrity sha512-/AO30g7H9mPFB2ycUSeIFX8SNyOzrRMqn9WLZzYYNS2wfanrAbJsXOX0YXV/p51kqfoVXa5ARW+Vm2ciiR/p1w==
+"@sone-dao/tone-react-provider-utils@^0.2.1":
+  version "0.2.1"
+  resolved "https://npm.pkg.github.com/download/@sone-dao/tone-react-provider-utils/0.2.1/4a301bd62e366ae2e8223dca63bf9d5c7ffb04dc#4a301bd62e366ae2e8223dca63bf9d5c7ffb04dc"
+  integrity sha512-8lc/RCzTS0ysjvx48dugG0pqXahZkq/2F82yJ/eEzFpciU72DqWAuQKuSqqSO12TpXfdmsawDX3o7QVcKIwHEw==
   dependencies:
     "@sone-dao/sone-react-utils" "^1.0.0"
 

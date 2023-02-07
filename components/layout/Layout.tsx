@@ -1,16 +1,34 @@
+import { createContext, useContext, useState } from 'react'
 import { Helmet } from '../core_ui/Helmet'
 import styles from './Layout.module.scss'
+
+interface ILayoutContext {
+  setHelmetHidden: Function
+}
+
+const F = () => {}
+
+const layoutContextDefaults: ILayoutContext = {
+  setHelmetHidden: F,
+}
+
+const LayoutContext = createContext<ILayoutContext>(layoutContextDefaults)
+
+export const useLayoutContext = () => useContext(LayoutContext)
 
 export interface ILayoutProps {
   children: React.ReactNode
 }
 
 const Layout: React.FC<ILayoutProps> = ({ children }) => {
+  const [isHelmetHidden, setHelmetHidden] = useState<boolean>(false)
   return (
-    <div className={styles.layout}>
-      <Helmet />
-      <main>{children}</main>
-    </div>
+    <LayoutContext.Provider value={{ setHelmetHidden }}>
+      <div className={styles.layout}>
+        {!isHelmetHidden && <Helmet />}
+        <main>{children}</main>
+      </div>
+    </LayoutContext.Provider>
   )
 }
 
