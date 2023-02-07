@@ -456,6 +456,13 @@
   resolved "https://npm.pkg.github.com/download/@sone-dao/tone-react-provider-session/0.2.0/24497dde2da2c32e5d14af7e66c4a6cdb273eac3#24497dde2da2c32e5d14af7e66c4a6cdb273eac3"
   integrity sha512-dmQLEy0VuX+VJaS40iQ6YDOQBUSuGJD8T91I9F1KgqadLwaGtw0dNGQCTTCKfwqAcCTguOi2qkHeGUkrtHm41w==
 
+"@sone-dao/tone-react-provider-utils@^0.2.0":
+  version "0.2.0"
+  resolved "https://npm.pkg.github.com/download/@sone-dao/tone-react-provider-utils/0.2.0/62670f5e76ddae0836653717246f2d0fbf63974c#62670f5e76ddae0836653717246f2d0fbf63974c"
+  integrity sha512-/AO30g7H9mPFB2ycUSeIFX8SNyOzrRMqn9WLZzYYNS2wfanrAbJsXOX0YXV/p51kqfoVXa5ARW+Vm2ciiR/p1w==
+  dependencies:
+    "@sone-dao/sone-react-utils" "^1.0.0"
+
 "@swc/core-darwin-arm64@1.3.26":
   version "1.3.26"
   resolved "https://registry.npmjs.org/@swc/core-darwin-arm64/-/core-darwin-arm64-1.3.26.tgz#43355315f0668a6a5366208f09678349bc0f44ee"
