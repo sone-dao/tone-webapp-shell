@@ -1,5 +1,6 @@
 import { createContext, useContext, useState } from 'react'
 import { Helmet } from '../core_ui/Helmet'
+import { Sidebar } from '../core_ui/Sidebar'
 import styles from './Layout.module.scss'
 
 interface ILayoutContext {
@@ -22,9 +23,11 @@ export interface ILayoutProps {
 
 const Layout: React.FC<ILayoutProps> = ({ children }) => {
   const [isHelmetHidden, setHelmetHidden] = useState<boolean>(false)
+
   return (
     <LayoutContext.Provider value={{ setHelmetHidden }}>
       <div className={styles.layout}>
+        <Sidebar />
         {!isHelmetHidden && <Helmet />}
         <main>{children}</main>
       </div>
