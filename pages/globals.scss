@@ -14,8 +14,8 @@
 
   /* Helmet params */
   --helmet-display: flex;
-  --helmet-background-color: 0, 0, 0, 0;
-  --helmet-color: 255, 255, 255, 1;
+  --helmet-background-color: 255, 255, 255, 0;
+  --helmet-color: 0, 0, 0, 1;
 }
 
 @media (prefers-color-scheme: dark) {
