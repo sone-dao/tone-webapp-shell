@@ -1,6 +1,4 @@
-declare module 'tone_core_ui/helmet'
-declare module 'tone_core_ui/sidebarProd'
-
-declare module 'tone_admissions/registrationProd'
-
-declare module 'tone_pages/searchProd'
+declare module 'tone_bucket/helmetProd'
+declare module 'tone_bucket/sidebarProd'
+declare module 'tone_bucket/registrationProd'
+declare module 'tone_bucket/searchProd'

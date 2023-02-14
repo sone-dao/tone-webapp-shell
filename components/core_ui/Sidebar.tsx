@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic'
 
-const SidebarProd = dynamic(() => import('tone_core_ui/sidebarProd'), {
+const SidebarProd = dynamic(() => import('tone_bucket/sidebarProd'), {
   ssr: false,
 })
 

@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic'
 
-const HelmetProd = dynamic(() => import('tone_core_ui/helmet'), {
+const HelmetProd = dynamic(() => import('tone_bucket/helmetProd'), {
   ssr: false,
 })
 

@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic'
 
-const SearchProd = dynamic(() => import('tone_pages/searchProd'), {
+const SearchProd = dynamic(() => import('tone_bucket/searchProd'), {
   ssr: false,
 })
 
