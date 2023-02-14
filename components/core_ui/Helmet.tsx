@@ -1,6 +1,7 @@
 import dynamic from 'next/dynamic'
 
 const HelmetProd = dynamic(() => import('tone_bucket/helmetProd'), {
+  loading: () => <div style={{ width: '100%', height: '5rem' }} />,
   ssr: false,
 })
 
