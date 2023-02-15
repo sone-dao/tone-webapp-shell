@@ -7,11 +7,6 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   if (!token)
     return res.status(400).json({ ok: false, message: 'MISSING_TOKEN' })*/
 
-  const sessionData = {
-    ...req.body,
-    ip: req.headers['X-Real-IP'],
-  }
-
   switch (req.method) {
     case 'POST':
       return fetch('https://analytics.sone.works/establish', {
@@ -19,7 +14,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(sessionData),
+        body: JSON.stringify(req.body),
       })
         .then((response) => response.json())
         .then((data) => data)
