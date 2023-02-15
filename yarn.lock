@@ -440,10 +440,10 @@
   resolved "https://npm.pkg.github.com/download/@sone-dao/sone-react-utils/1.0.0/2444fe1e176ad09df809b2ee801d39aa6a8d380c#2444fe1e176ad09df809b2ee801d39aa6a8d380c"
   integrity sha512-NTK3RqXea3tSjlqhQTE+qLfcBFpojT8kxYHh2eaRxCtcFjI7tOnX8Fv5Jl7v4B3Fp6QbJFwauk1UY+KEdNcpRg==
 
-"@sone-dao/tone-react-analytics@^1.0.4":
-  version "1.0.4"
-  resolved "https://npm.pkg.github.com/download/@sone-dao/tone-react-analytics/1.0.4/7545e1938d66216c3c3f1f3ce9bd9b3104da7953#7545e1938d66216c3c3f1f3ce9bd9b3104da7953"
-  integrity sha512-Easpn9GcBmuha/KjmRi04SgNVzLTFyl6EuXxJxtMJdy0PdMnpiHpjTPIF6UwExwqvSWoTQzPhH0jr/mjq+mGpw==
+"@sone-dao/tone-react-analytics@^1.1.0":
+  version "1.1.0"
+  resolved "https://npm.pkg.github.com/download/@sone-dao/tone-react-analytics/1.1.0/829ecf31b9c847cda1c4e349ba14f373a7f20bff#829ecf31b9c847cda1c4e349ba14f373a7f20bff"
+  integrity sha512-qQRW0cEzLmTBbjoQqNU8tOe4yFtDnWou8wGdkV1l1FVmFUV1TMKQzn9tXfz4hkrwm295BmBpjNP3UGx5EvKPIQ==
 
 "@sone-dao/tone-react-provider-session@^0.2.0":
   version "0.2.0"
@@ -3328,11 +3328,6 @@ regexpp@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-3.2.0.tgz#0425a2768d8f23bad70ca4b90461fa2f1213e1b2"
   integrity sha512-pq2bWo9mVD43nbts2wGv17XLiNLya+GklZ8kaDLV2Z08gDCsGpnKn9BFMepvWuHCbyVvY7J5o5+BVvoQbmlJLg==
-
-request-ip@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/request-ip/-/request-ip-3.3.0.tgz#863451e8fec03847d44f223e30a5d63e369fa611"
-  integrity sha512-cA6Xh6e0fDBBBwH77SLJaJPBmD3nWVAcF9/XAcsrIHdjhFzFiB5aNQFytdjCGPezU3ROwrR11IddKAM08vohxA==
 
 require-directory@^2.1.1:
   version "2.1.1"
