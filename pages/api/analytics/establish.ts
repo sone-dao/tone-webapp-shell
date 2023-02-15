@@ -1,5 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 import type { NextApiRequest, NextApiResponse } from 'next'
+import requestIp from 'request-ip'
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   /* const token = req.headers['authorization']?.split(' ')[1]
@@ -9,7 +10,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
   const sessionData = {
     ...req.body,
-    ip: req.socket.remoteAddress,
+    ip: requestIp.getClientIp(req),
   }
 
   switch (req.method) {
