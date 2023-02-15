@@ -17,7 +17,11 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         body: JSON.stringify(req.body),
       })
         .then((response) => response.json())
-        .then((data) => data)
+        .then((data) =>
+          data.ok
+            ? data
+            : { ok: false, message: 'ERROR_ESTABLISHING_ANALYTICS_SESSION' }
+        )
         .catch((error) => ({ ok: false, error }))
   }
 }
