@@ -9,7 +9,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
   const sessionData = {
     ...req.body,
-    ip: req.headers['x-forwarded-for'] || req.socket.remoteAddress,
+    ip: req.socket.remoteAddress,
   }
 
   switch (req.method) {
