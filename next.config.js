@@ -45,6 +45,7 @@ const nextConfig = async () => {
       config.resolve.fallback = {
         fs: false,
       }
+
       return config
     },
   }

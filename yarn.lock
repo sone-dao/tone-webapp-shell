@@ -445,6 +445,14 @@
   resolved "https://npm.pkg.github.com/download/@sone-dao/tone-react-analytics/1.1.1/98f1872bd83e9d6e6138c58d0412819514f1005b#98f1872bd83e9d6e6138c58d0412819514f1005b"
   integrity sha512-w2JPT+DTLACrvX2VcHE7yuJkznAu6R2iz9uzkXWKONoi7w387BNu6X4vkOszB67XDE4aSrPz80sTwL/4c89kBA==
 
+"@sone-dao/tone-react-containers@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@sone-dao/tone-react-containers/1.0.0/cc1c807561d4519bda1a8ce26d1bd9de59f5debe#cc1c807561d4519bda1a8ce26d1bd9de59f5debe"
+  integrity sha512-DXIeoyxRaz7V2iJHjlfoEGuz2dU6zJNwy/doB8gu93ZiRjojJZd1PCBFNsK194iGWcuV7252KZlcDY682NliVA==
+  dependencies:
+    react "^18.2.0"
+    react-dom "^18.2.0"
+
 "@sone-dao/tone-react-provider-session@^0.2.0":
   version "0.2.0"
   resolved "https://npm.pkg.github.com/download/@sone-dao/tone-react-provider-session/0.2.0/24497dde2da2c32e5d14af7e66c4a6cdb273eac3#24497dde2da2c32e5d14af7e66c4a6cdb273eac3"

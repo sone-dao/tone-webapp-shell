@@ -28,6 +28,7 @@
     "@sone-dao/sone-react-placeholder": "^1.0.0",
     "@sone-dao/sone-react-utils": "^1.0.0",
     "@sone-dao/tone-react-analytics": "^1.1.1",
+    "@sone-dao/tone-react-containers": "^1.0.0",
     "@sone-dao/tone-react-provider-session": "^0.2.0",
     "@sone-dao/tone-react-provider-utils": "^0.2.1",
     "compression": "^1.7.4",

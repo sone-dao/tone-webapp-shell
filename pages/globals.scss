@@ -47,9 +47,14 @@ a {
 
 button {
   all: unset;
+  align-items: center;
   border: 1px solid black;
   box-sizing: border-box;
   display: flex;
+  font-family: var(--font-copy-main-family);
+  justify-content: center;
+  padding: 1em;
+  width: 100%;
 
   &:hover {
     cursor: pointer;
