@@ -1,4 +1,4 @@
-import Uploader from '@sone-dao/tone-react-uploader'
+import { Uploader } from '@/components/core_ui/Uploader'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
