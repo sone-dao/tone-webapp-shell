@@ -16,9 +16,9 @@ class ModdedDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
             rel="stylesheet"
           />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=optional"
+          <script
+            src="https://kit.fontawesome.com/db877d7948.js"
+            crossOrigin="anonymous"
           />
         </Head>
         <body>

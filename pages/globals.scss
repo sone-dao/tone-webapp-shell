@@ -1,26 +1,30 @@
 :root {
-  /* Font params */
+  /** Font params */
   --font-copy-main-size: 18px;
   --font-copy-main-family: 'Inter', sans-serif;
 
-  /* Sidebar params */
+  /** Global colors */
+  --global-primary: 255, 255, 255;
+  --global-secondary: 0, 0, 0;
+
+  /** Sidebar params */
   --sidebar-background-color: 255, 255, 255, 1;
   --sidebar-color: 0, 0, 0, 1;
   --sidebar-margin: -100%;
 
-  /* Helmet params */
+  /** Helmet params */
   --helmet-display: flex;
   --helmet-background-color: 255, 255, 255, 0;
   --helmet-color: 0, 0, 0, 1;
 
-  /* Rando important globas */
+  /** Rando important globas */
   --border-radius-main: 14px;
   --max-width: 1100px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    /* Define dark mode variables here */
+    /** Define dark mode variables here */
   }
 }
 
@@ -61,6 +65,18 @@ button {
   }
 }
 
+h1 {
+  font-family: var(--font-copy-main-family);
+  font-size: 42px;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: var(--font-copy-main-family);
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 h5 {
   font-family: var(--font-copy-main-family);
   font-size: 0.75em;
@@ -77,7 +93,7 @@ p {
 }
 
 @media (prefers-color-scheme: dark) {
-  /*html {
+  /** html {
     color-scheme: dark;
   }*/
 }
